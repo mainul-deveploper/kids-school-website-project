@@ -19,6 +19,14 @@ body{
     margin: 0 auto;
     border: 5px double rgb(0, 119, 255);
 }
+.hover-effect:hover{
+    background-color: seagreen;
+    color: red;
+}
+.hide{
+    display: none;
+}
+
 a{
     text-decoration: none;
 }
@@ -27,7 +35,9 @@ li{
 }
 .flex{
     display: flex;
-
+}
+.text{
+    text-align: center;
 }
 .btn{
     border-radius: 12px;
@@ -75,6 +85,34 @@ li{
 
 
 
+/* CURRICULUM id part*/
+#kinder{
+    background-image: linear-gradient(to bottom, #def5ff, #e9f7ff, #f3f9ff, #fafbff, #ffffff);;
+   }
+#elementary{
+       background-image: linear-gradient(to bottom, #fff4dc, #fff3e9, #fff6f7, #fffbff, #ffffff);
+   }
+      #middle{
+       background-image: linear-gradient(to bottom, #f2e8ff, #f4eeff, #f7f4ff, #fbf9ff, #ffffff);
+   }
+   
+   /* a > read more style*/
+   
+   #read-more-1{
+    color: #64C8FF;
+    font-size: 1rem;
+    font-weight: 700;
+   }
+   #read-more-2{
+       color: #F0AA00;
+       font-size: 1rem;
+       font-weight: 700;
+   }
+   #read-more-3{
+   color: rgba(135, 0, 255, 1);
+   font-size: 1rem;
+   font-weight: 700;
+   }
 
 
 
@@ -113,6 +151,7 @@ li{
     justify-content:space-between;
     align-items: center;
     padding: 10px;
+    margin-bottom: 100px;
 }
 
 .banner-title{
@@ -135,4 +174,151 @@ li{
 }
 /* banner style closed */
 
+/* Curriculum  STYLE*/
+.curriculum{
+    border: 2px double green;
+    text-align: center;
+    background-image: url(../assets/bg.png);
+    padding: 3erm;
+}
+.section-title {
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
+.curriculum-child{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+.curriculum-container{
+    border: 2px double blue;
+    padding: 1rem;
+}
+/* Curriculum btn Style */
+.round{
+    margin:50px 15px;
+    width: 60px;
+    height:60px;
+    border: none;
+    border-radius: 50%;
+    background-color:#FEA301;
+    color: #f3f9ff;
+
+}
+/* Curriculum */
+
+
+
+
+
+/* our-story */
+.our-story{
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/bg.png);
+}
+
+.story-sub-container{
+    background-color: #F0AA00;
+
+}
+.btn-story-1{
+    position: relative;
+    top: -8.125rem;
+    left: 20px;
+    background-color: rgba(60, 216, 232, 1);
+    padding: 16px 25px;
+    border-radius: 47px;
+    font-size: 1rem;
+    font-weight:500;
+    border: none
+
+}
+.story-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+
+    .school, .nav, .header-btn, .round{
+        display: none;
+    }
+    .text{
+        text-align: center;
+    }
+    .hr{
+        display: block;
+        color: orange;
+    }
+    
+
+    /* Banner */
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /* .banner-container > img{
+        width: 374px;
+        height:500px;
+        object-fit: contain;
+    } */
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        border: 2px dotted green;
+        justify-content: center;
+    }
+    .banner-container-1{
+        padding: 1rem;
+    }
+    .enroll{
+        border-radius: 12px;
+        padding: 13px 20px;
+        border: none;
+        background-color: rgb(3, 3, 3);
+        font-size: .95rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+
+
+    /* curriculum */
+    .section-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .curriculum-container{
+        border: 2px double blue;
+    }
+    .curriculum-child{
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        
+        /* gap: 1rem;
+        padding: 1.5rem; */
+    }
+}
