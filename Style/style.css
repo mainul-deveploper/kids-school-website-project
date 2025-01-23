@@ -9,6 +9,130 @@
 .quicksand{
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400;
   font-style: normal;
 }
+
+/* SHEAR STYLE */
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 5px double rgb(0, 119, 255);
+}
+a{
+    text-decoration: none;
+}
+li{
+   list-style: none;
+}
+.flex{
+    display: flex;
+
+}
+.btn{
+    border-radius: 12px;
+    padding: 10px 60px;
+    border: none;
+    background-color: rgba(254, 163, 1, 1);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/* sheared ID style */
+
+/* header part */
+
+
+
+
+/* Banner part id style */
+#Admission{
+    color: rgba(93, 88, 239, 1);
+}
+#Facilities{
+    color: rgba(5, 212, 223, 1);
+}
+#Home{
+    color: rgba(254, 163, 1, 1);
+}
+#About{
+    color: rgba(1, 172, 253, 1);
+}
+/* banner id style */
+#Empowering{
+    color: rgba(254, 163, 1, 1);
+}
+#towards{
+    color: rgba(1, 172, 253, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.ul{
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Main style */
+
+/* Banner  Style*/
+.banner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 1.2rem;
+    font-weight:300 ;
+}
+
+.enroll{
+    border-radius: 12px;
+    padding: 13px 47px;
+    border: none;
+    background-color: rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+/* banner style closed */
+
+
